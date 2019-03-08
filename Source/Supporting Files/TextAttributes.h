@@ -25,10 +25,11 @@
 #import <TargetConditionals.h>
 
 #if TARGET_OS_IPHONE
-    @import UIKit;
+@import UIKit;
 #else
-    @import AppKit;
+@import AppKit;
 #endif
 
 FOUNDATION_EXPORT double TextAttributesVersionNumber;
 FOUNDATION_EXPORT const unsigned char TextAttributesVersionString[];
+

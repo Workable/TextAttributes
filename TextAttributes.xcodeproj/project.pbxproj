@@ -29,6 +29,7 @@
 		6DDF4E491CD20456002AA459 /* AttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC3C56A1CB82FCB00ED7249 /* AttributedString.swift */; };
 		6DDF4E4A1CD2045A002AA459 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB8402C1CB1F398002AB94E /* Utilities.swift */; };
 		6DDF4E4B1CD20817002AA459 /* TextAttributesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2475461CAAB1050044D223 /* TextAttributesTests.swift */; };
+		7ABE92512232C85F00B3B397 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ABE92502232C85F00B3B397 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +59,6 @@
 /* Begin PBXFileReference section */
 		6D2475371CAAB1050044D223 /* TextAttributes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextAttributes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D24753A1CAAB1050044D223 /* TextAttributes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextAttributes.h; sourceTree = "<group>"; };
-		6D24753C1CAAB1050044D223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D2475411CAAB1050044D223 /* TextAttributes iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TextAttributes iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D2475461CAAB1050044D223 /* TextAttributesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextAttributesTests.swift; sourceTree = "<group>"; };
 		6D2475481CAAB1050044D223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,6 +70,7 @@
 		6DC3C56A1CB82FCB00ED7249 /* AttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedString.swift; sourceTree = "<group>"; };
 		6DDF4E301CD1260A002AA459 /* TextAttributes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextAttributes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DDF4E391CD1260B002AA459 /* TextAttributes OSX Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TextAttributes OSX Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABE92502232C85F00B3B397 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,7 +176,7 @@
 		6D5F82CF1CADCD2300237532 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6D24753C1CAAB1050044D223 /* Info.plist */,
+				7ABE92502232C85F00B3B397 /* Info.plist */,
 				6D24753A1CAAB1050044D223 /* TextAttributes.h */,
 				6DB8402C1CB1F398002AB94E /* Utilities.swift */,
 			);
@@ -418,6 +419,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ABE92512232C85F00B3B397 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,7 +665,7 @@
 				PRODUCT_NAME = TextAttributes;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -684,7 +686,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.delba.TextAttributes;
 				PRODUCT_NAME = TextAttributes;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
